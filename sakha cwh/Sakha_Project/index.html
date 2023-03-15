@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  	<title>AI Sakha Login | Login Page CSS</title>
+
+		<!-- <link rel="apple-touch-icon" sizes="180x180" href="https://mazipan.github.io/login-page-css/favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="https://mazipan.github.io/login-page-css/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="https://mazipan.github.io/login-page-css/favicon/favicon-16x16.png">
+		<link rel="manifest" href="https://mazipan.github.io/login-page-css/manifest.json" /> -->
+
+		<meta name="msapplication-TileColor" content="#fdcb04" />
+		<meta name="theme-color" content="#fdcb04" />
+		<link rel="manifest" href="https://mazipan.github.io/login-page-css/manifest.json">
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../shared/normalize.css" />
+    <link rel="stylesheet" href="../shared/additional.css" />
+    <link rel="stylesheet" href="loginstyle.css" />
+  </head>
+  <body>
+    <div class="bg-img login-page flex items-center justify-center">
+      <div class="modal-quora">
+        <div class="modal-quora__body">
+          <div class="logo flex flex-col items-center justify-center">
+            <img src="logo.jpg" alt="Logo" width="100" height="100%"  class="logo__img" />
+            <h2 class="logo__caption">
+              
+            </h2>
+          </div>
+          <div class="login__form flex">
+            <div class="login__social w-half flex-col flex">
+              <button class="btn btn--google flex items-center justify-center">
+                <span class="btn__icons"
+                  ><img src="./icons/google.png" alt=""
+                /></span>
+                Login with Google
+              </button>
+              <button
+                class="btn btn--facebook flex items-center justify-center"
+              >
+                <span class="btn__icons"
+                  ><img src="./icons/facebook.png" alt=""
+                /></span>
+                Login with Facebook
+              </button>
+              <p class="login__caption">
+                <a href="#" class="login__url">Register with email.</a> 
+            <!--    <a href="#" class="login__url">Persyaratan Layanan</a> dan
+                <a href="#" class="login__url">Kebijakan Privasi</a> Quora dan
+                setuju bahwa informasi Anda bersifat akurat.-->
+              </p>
+            </div>
+            <div class="login__input w-half">
+              <p class="login__label">Sign in</p>
+              <form action="" class="form-input">
+                <input
+                  type="text"
+                  class="login__input--email"
+                  placeholder="username"
+                />
+                <input
+                  type="password"
+                  class="login__input--password"
+                  placeholder="password"
+                />
+                <div class="flex justify-betweeen">
+                  <a href="/Sakha_Project/signup_page/signup.html" class="login__url login__url--forgot"
+                    >New User?</a
+                  >
+                  
+                  <button class ="login__submit" style="background-color: orange;">Login</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div
+          class="modal-quora__footer flex flex-col justify-center items-center"
+        >
+          <div class="flex">
+            <a href="#" class="footer__url">About us</a>
+            <a href="#" class="footer__url">Languages</a>
+            <a href="#" class="footer__url">Contact Us</a>
+          </div>
+          <p>© Sakha 2023</p>
+        </div>
+      </div>
+    </div>
+    <!-- ADDITIONAL CODE -- start YOU MIGHT NOT NEEDED -->
+    <footer>
+      <a href="/login-page-css/"> Back to Home </a>
+      <span class="author">
+        
+        <a
+          href="https://github.com/naufaldi"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+      </span>
+      <a
+        href="https://github.com/mazipan/login-page-css"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+      copyright &copy; 2027 -
+      </a>
+      <a href="https://info.sakha.chat"
+        >@sakha</a>
+        All rights reserved 
+    </footer>
+    <!-- ADDITIONAL CODE -- end YOU MIGHT NOT NEEDED -->
+  </body>
+  <script type="text/javascript">
+    if (screen.width <= 699) {
+      document.location = 'index-mobile.html';
+    }
+  </script>
+</html>
